@@ -1,4 +1,4 @@
-javascript: delay=60; /*(in milliseconds) Any faster than ~60ms and typingclub will crash*/
+javascript: delay=prompt("Enter delay (ms). Any faster than ~60 and typingclub may not register");
 /*Please keep in mind that this is just an experiment. If your typingclub stuff is graded please do not use this. Seriously*/
 const rawElements = document.getElementsByClassName("token_unit");
 const listElements = Array.from(rawElements); 
