@@ -4,5 +4,5 @@ const rawElements = document.getElementsByClassName("token_unit");
 const listElements = Array.from(rawElements); 
 const letterList = []; 
 listElements.forEach(item => letterList.push(item.innerHTML.replace(/<\/?[^>]+(>|$)/g, ""))); 
-var strippedLetterList = letterList.map(function(x){return x.trim().replace(/&nbsp;/g, %27 %27);}); 
+var strippedLetterList = letterList.map(function(x){return x.trim().replace(/&nbsp;/g, " ");}); 
 for (let i = 0; i < strippedLetterList.length; i++) {setTimeout(function(){window.core.record_keydown_time(strippedLetterList[i])}, delay*i)};
