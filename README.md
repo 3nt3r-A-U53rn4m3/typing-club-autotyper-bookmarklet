@@ -1,5 +1,7 @@
 # Typing Club Autotyper Bookmarklet
 Pretty self-explanatory
+- Working 2022 :)
+- up to 200+ WPM
 
 ## Setup
 - copy paste everything in autotyper.js (EVERYTHING)
