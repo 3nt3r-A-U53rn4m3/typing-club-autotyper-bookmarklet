@@ -1,6 +1,6 @@
 # Typing Club Autotyper Bookmarklet
 Pretty self-explanatory
-- Working 2022 :)
+- Working 2023 :)
 - up to 200+ WPM
 
 ## Setup
@@ -14,3 +14,4 @@ This doesn't quite work with lessons that include **tabs** or **enter keys**.
 
 ## Disclaimer
 this is for ✨ *educational purposes* ✨
+self note: did not update the obfusicated version
